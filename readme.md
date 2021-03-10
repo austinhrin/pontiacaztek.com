@@ -8,5 +8,7 @@ This website is an ongoing project to list the history of my Aztek and any curre
 [ ] Add images to make website feel more alive!
 [ ] Create + add favicon.
 [ ] Add original commercials and articles about the Aztek under the archive page.
-[ ] Figure out best way to host a copy of the aztekfanclub.com website for the archive page. Currently it is 30gb but surely it can be cut down a lot from that... httpd seemed to grab a lot of external webpages...
+[ ] Figure out best way to host a copy of the aztekfanclub.com website for the archive page. Currently it is 2.1gb but surely it can be cut down a lot from that... httpd seemed to grab a lot of external webpages...
 [ ] Figure out how to copy/archive Facebook posts?
+[ ] Monetize the website. Ads? Links to Amazon products related to the Aztek.
+[ ] Search for {*} in index.html page then find and fill in missing info.
