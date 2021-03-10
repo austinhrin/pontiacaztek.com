@@ -1,183 +1,96 @@
 /* start layout css */
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 1.3em;
 }
 
 .bg {
-	background: url(../images/background.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-color: black;
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	bottom: 0;
-	z-index: -1;
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
 }
 
 #titleArea h1 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a {
-	color: white;
+    color: white;
 }
 
 a:hover {
-	color: yellow;
+    color: yellow;
 }
 
 #header,
 #content {
-	position: relative;
-	width: 80%;
-	margin: 20px 10%;
-	padding: 20px;
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
-	border-radius: 10px;
+    position: relative;
+    width: 80%;
+    margin: 20px 10%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
 }
 
 #content img {
-	max-width: 75%;
-	max-height: 400px;
-}
-
-.archive {
-	height: 1.2em;
+    max-width: 75%;
+    max-height: 400px;
 }
 
 #header {
-	height: 100px;
+    height: 100px;
 }
 
 #titleArea,
 #nav {
-	position: relative;
-	width: 68%;
-}
-
-#login,
-#hello {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-}
-
-/*
-#content {
-	height: 500px;
-}
-*/
-
-.error {
-	color: red;
+    position: relative;
+    width: 68%;
 }
 
 /* end layout css */
-
-/* start forms css */
-
-form {
-	opacity: 100%;
-	position: relative;
-}
-
-form #head {
-	padding: 20px;
-}
-
-form ul {
-	padding-left: 20px;
-}
-
-form #leftForm,
-form #rightForm {
-	width: 49%;
-	float: left;
-}
-
-form #leftForm label {
-	float: right;
-	padding-right: 10px;
-	display: block;
-}
-
-/* end forms css */
-
-/* start forum css */
-
-#forum .forumSection {
-	margin-top: 10px;
-	padding: 10px;
-	height: 80px;
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-#forum #originalPost,
-#forum .reply {
-	margin-top: 10px;
-	padding: 10px;
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-#new_post {
-	padding-top: 20px;
-	min-height: 200px;
-
-}
-
-#new_post #right,
-#new_post #left {
-	float: left;
-}
-
-#new_post #right {
-	width: 79%;
-}
-
-#new_post #left {
-	width: 20%;
-
-}
-
-/* end forum css */
 
 /* start responsiveness */
 
 @media only screen and (max-width: 800px) {
 
-	#header,
-	#content {
-		width: 95%;
-		margin: 10px 5px;
-		padding: 10px;
-	}
+    #header,
+    #content {
+        width: 95%;
+        margin: 10px 5px;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
 
-	#titleArea h3 {
-		display: none;
-		height: 0;
-		width: 0;
-	}
+    #titleArea h3 {
+        display: none;
+        height: 0;
+        width: 0;
+    }
 
-	#header,
-	#content {
-		margin: 0;
-	}
+    #header,
+    #content {
+        margin: 0;
+    }
 
 }
 
