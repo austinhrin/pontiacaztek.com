@@ -12,3 +12,4 @@ This website is an ongoing project to list the history of my Aztek and any curre
 [ ] Figure out how to copy/archive Facebook posts?
 [ ] Monetize the website. Ads? Links to Amazon products related to the Aztek.
 [ ] Search for {*} in index.html page then find and fill in missing info.
+[ ] Work on onpage SEO
